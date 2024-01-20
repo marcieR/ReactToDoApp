@@ -1,5 +1,5 @@
 body {
-    background-color: #2ac56c;
+    background-color: #4593e3;
     color: #fff;
 }
 .raleway> {
@@ -74,9 +74,10 @@ input {
       font-weight: 700;
       outline: none;
       position: relative;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
+      background: #226fbe;
+      -webkit-transition: none;
+      -moz-transition: none;
+      transition: none;
   }
   
 .btn:after {
@@ -87,68 +88,18 @@ input {
       -moz-transition: all 0.3s;
       transition: all 0.3s;
   }
-/* Button Interations */
-.btn {
-	border-radius: 50px;
-	border: 3px solid #fff;
-	color: #fff;
-	overflow: hidden;
-}
 
 .btn:active {
-	border-color: #17954c;
-	color: #17954c;
+	top: 2px;
+}
+/* Button Interactions */
+
+.btn {
+	border: 4px solid #226fbe;
+	border-radius: 60px;
 }
 
 .btn:hover {
-	background: #24b662;
-}
-
-.btn:before {
-	position: absolute;
-	height: 100%;
-	font-size: 125%;
-	line-height: 3.5;
-	color: #fff;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-  /* color bgs*/
-.color-1 {
-	background: #0e83cd;
-}
-
-.color-2 {
-	background: #f06060;
-}
-
-.color-3 {
-	background: #fcd04b;
-}
-
-.color-4 {
-	background: #2ecc71;
-}
-
-.color-5 {
-	background: #9e54bd;
-}
-
-.color-6 {
-	background: #4593e3;
-}
-
-.color-7 {
-	background: #2ac56c;
-}
-
-.color-8 {
-	background: #ecf0f1;
-}
-
-.color-8 p.text {
-	color: #aaa;
-	font-weight: bold;
+	background: transparent;
+	color: #226fbe;
 }
