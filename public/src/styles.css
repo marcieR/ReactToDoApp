@@ -1,0 +1,120 @@
+body {
+    background-color: #2ac56c;
+}
+.raleway> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.App {
+    font-family: "Raleway", sans-serif ;
+    text-align: center;
+  
+}
+
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+/* Header Style */
+.main,
+.container > header {
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.container > header {
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.5;
+	padding: 0 0 0.6em 0.1em;
+}
+
+  
+  /* General button style (reset) */
+.btn {
+      border: none;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background: none;
+      cursor: pointer;
+      padding: 25px 80px;
+      display: inline-block;
+      margin: 15px 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  
+.btn:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+
+  /* color bgs*/
+.color-1 {
+	background: #0e83cd;
+}
+
+.color-2 {
+	background: #f06060;
+}
+
+.color-3 {
+	background: #fcd04b;
+}
+
+.color-4 {
+	background: #2ecc71;
+}
+
+.color-5 {
+	background: #9e54bd;
+}
+
+.color-6 {
+	background: #4593e3;
+}
+
+.color-7 {
+	background: #2ac56c;
+}
+
+.color-8 {
+	background: #ecf0f1;
+}
+
+.color-8 p.text {
+	color: #aaa;
+	font-weight: bold;
+}
