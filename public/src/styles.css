@@ -104,3 +104,8 @@ input {
 }
 
 /* list styles */
+
+li {
+    text-transform: uppercase;
+    font-size: 125%;
+}
