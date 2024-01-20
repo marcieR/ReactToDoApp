@@ -1,5 +1,6 @@
 body {
     background-color: #2ac56c;
+    color: #fff;
 }
 .raleway> {
     font-family: "Raleway", sans-serif;
@@ -11,7 +12,6 @@ body {
 .App {
     font-family: "Raleway", sans-serif ;
     text-align: center;
-  
 }
 
 
@@ -50,6 +50,13 @@ a:active {
 	padding: 0 0 0.6em 0.1em;
 }
 
+/*Input Styles*/
+input {
+    padding: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 125%;
+}
   
   /* General button style (reset) */
 .btn {
@@ -61,7 +68,7 @@ a:active {
       cursor: pointer;
       padding: 25px 80px;
       display: inline-block;
-      margin: 15px 30px;
+      margin: 15px 15px;
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 700;
@@ -80,6 +87,33 @@ a:active {
       -moz-transition: all 0.3s;
       transition: all 0.3s;
   }
+/* Button Interations */
+.btn {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: hidden;
+}
+
+.btn:active {
+	border-color: #17954c;
+	color: #17954c;
+}
+
+.btn:hover {
+	background: #24b662;
+}
+
+.btn:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
   /* color bgs*/
 .color-1 {
