@@ -14,20 +14,19 @@ body {
     text-align: center;
 }
 
-
 a {
 	color: #888;
 	text-decoration: none;
 }
 
-a:hover,
-a:active {
+a:hover
+, a:active {
 	color: #333;
 }
 
 /* Header Style */
-.main,
-.container > header {
+.main
+, .container > header {
 	margin: 0 auto;
 	padding: 2em;
 }
@@ -103,3 +102,5 @@ input {
 	background: transparent;
 	color: #226fbe;
 }
+
+/* list styles */
