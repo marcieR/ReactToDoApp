@@ -4,9 +4,9 @@ const todos = (state = [], action) => {
       return [
         ...state,
         {
-          id: action.id,
-          text: action.text,
-          completed: false
+          id: action.id
+          , text: action.text
+          , completed: false
         }
       ];
     case "TOGGLE_TODO":
