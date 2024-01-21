@@ -10,7 +10,7 @@ const AddTodo = ({ dispatch }) => {
       <form
         onSubmit={e => {
           e.preventDefault();
-          if (!input.value.trim()) {
+          if ( !input.value.trim() ) {
             return;
           }
           dispatch(addTodo( input.value ));
@@ -24,4 +24,4 @@ const AddTodo = ({ dispatch }) => {
   );
 };
 
-export default connect()(AddTodo);
+export default connect()( AddTodo );

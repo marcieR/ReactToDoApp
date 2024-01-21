@@ -17,7 +17,7 @@ const getVisibleTodos = ( todos, filter ) => {
 };
 
 const mapStateToProps = state => ({
-  todos: getVisibleTodos(state.todos, state.visibilityFilter)
+  todos: getVisibleTodos( state.todos, state.visibilityFilter )
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -27,4 +27,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TodoList);
+)( TodoList );
