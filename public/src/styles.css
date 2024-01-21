@@ -55,7 +55,13 @@ input {
     border: none;
     font-weight: 700;
     font-size: 125%;
+    font-family: "Raleway", sans-serif;
 }
+input::placeholder {
+    font-family: "Raleway";
+    opacity: 0.5;
+    color: gray;
+  }  
   
   /* General button style (reset) */
 .btn {
