@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Todo = ({ onClick, completed, text }) => (
   <li
-    onClick={onClick}
+    onClick={ onClick }
     style={{
       textDecoration: completed ? "line-through" : "none"
     }}
