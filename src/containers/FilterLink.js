@@ -10,6 +10,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
   onClick: () => dispatch(setVisibilityFilter(ownProps.filter))
 });
 
+//random practice
 //test fizzBuzz
 function fizzBuzz( n ) {
   for ( let n = 1; n<=15 ; n++ ) {
@@ -47,7 +48,52 @@ const ar = [
 ]
 sum( ar );
 
+//comparing arrays
+function compare ( a1, a2, n ) {
+  for( let i=0; i<=2; i++ ) {
+    
+    if ( a1[i] < a2[i]) {
+      //if the array value is greater than or equal to the same then add the remainder to a new array
+      array3.push(1);
+      console.log( array3 );
+    } else if ( a1[i] > a2[i] ) {
+      //if the array value is less than or equal to the same then add the remainder to a new array
+      array4.push(1);
+      if(array4.length > 1) {
+        array4.reduce(add, 0);
+        function add( accumulator, a ) {
+          console.log( '4', array4 );
+          return accumulator + a; 
+        }
+      }
+    } else {
+      //if the array value is equal add nothing to the array
+      console.log( n );
+    }
+  }
+};
+const array1 = [ 1, 3, 3 ];
+const array2 = [ 3, 2, 1 ];
+const array3 = [];
+const array4 = [];
+const newArray = [];
+
+compare ( array1, array2, newArray );
+
 export default connect(
   mapStateToProps,
   mapDispatchToProps
 )( Link );
+
+const meal = 100;
+const tip = 15;
+const tax = 8;
+
+function totalmealprice(meal, tip, tax) {
+  const taxpercent = 0.01 * tax;
+  const totaltax = meal * taxpercent;
+  const totalmealcost = meal + totaltax;
+  console.log(taxpercent, totaltax, totalmealcost);
+
+};
+totalmealprice(meal, tip, tax);
