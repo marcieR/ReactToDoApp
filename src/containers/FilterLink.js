@@ -85,15 +85,19 @@ export default connect(
   mapDispatchToProps
 )( Link );
 
-const meal = 100;
-const tip = 15;
+const meal = 12;
+const tip = 20;
 const tax = 8;
 
 function totalmealprice(meal, tip, tax) {
   const taxpercent = 0.01 * tax;
   const totaltax = meal * taxpercent;
-  const totalmealcost = meal + totaltax;
-  console.log(taxpercent, totaltax, totalmealcost);
-
+  const tippercent = tip * 0.01;
+  const totaltip = meal * tippercent;
+  const totalmealcost = meal + totaltax + totaltip;
+  const numtotalmealcost = Math.round(totalmealcost);
+  console.log(taxpercent, totaltax, totalmealcost, totaltip, numtotalmealcost);
 };
+
 totalmealprice(meal, tip, tax);
+
